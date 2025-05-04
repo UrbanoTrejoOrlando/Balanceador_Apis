@@ -1,6 +1,8 @@
 // Inicializar el servidor de express
 const express = require("express");
+// Inicializar cors
 const cors = require("cors");
+
 const PORT = 3001;
 
 // Inicializamos el servidor
