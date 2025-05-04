@@ -19,5 +19,5 @@ app.get("/",(req,res)=>{
 // Arrancamos el servicio
 app.listen(PORT,()=>{
     // Mensaje que aparecera en la consola
-    console.log("SERVIDOR CORRIENDO EN EL PUERTO http://localhost:" + PORT);
+    console.log("Servidor correindo en el puerto http://localhost:" + PORT);
 })
