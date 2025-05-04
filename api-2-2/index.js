@@ -2,6 +2,7 @@
 const express = require("express");
 // Inicializar cors
 const cors = require("cors");
+// Elegir el puerto por el cual se va ejecutar la api 
 const PORT = 4001;
 
 // Inicializamos el servidor
