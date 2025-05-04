@@ -2,6 +2,7 @@
 const express = require("express");
 // Inicializar cots
 const cors = require("cors");
+// Elegir el puerto por el cual se va ejecutar la api 
 const PORT = 3000;
 
 // Inicializamos el servidor
