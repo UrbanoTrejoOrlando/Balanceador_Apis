@@ -12,6 +12,7 @@ const app = express();
 app.use(express.json());
 app.use(cors());
 
+// Mensaje que aparece al ejecutar la api
 app.get("/",(req,res)=>{
     res.json({message:"Servidor 1-2"})
 })
